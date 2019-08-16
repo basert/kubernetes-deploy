@@ -23,6 +23,8 @@ require 'kubernetes-deploy/bindings_parser'
 require 'kubernetes-deploy/duration_parser'
 require 'kubernetes-deploy/resource_cache'
 require 'kubernetes-deploy/label_selector'
+require 'kubernetes-deploy/task_config'
+require 'kubernetes-deploy/validator'
 
 module KubernetesDeploy
   MIN_KUBE_VERSION = '1.10.0'
